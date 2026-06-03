@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #86e58e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+}
+
+.output-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#password {
+    flex: 1;
+    padding: 10px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#generateBtn {
+    width: 100%;
+}
+
+#strength {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
